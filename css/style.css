@@ -1,0 +1,697 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #616161;
+
+}
+
+button {
+    display: block;
+    background-color: transparent;
+    border: none;
+}
+
+.be-static {
+    position: static; /*отменяет позицию relativ*/
+}
+
+.vh-dependant {
+    height: 35vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    font-style: normal;
+    color: #151515;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.btn {
+    background: #3726F2;
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 12px 26px;
+    display: inline;
+    letter-spacing: 0.3em;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    white-space: nowrap;
+    
+}
+
+.btn:hover {
+    color: #fff;
+    background: #13079F;
+}
+
+.header {
+    height: 95vh;
+    
+}
+.nav {
+    padding-top: 60px;
+    margin-bottom: 127px;
+}
+
+.offer-cont__title {
+    font-size: 60px;
+    letter-spacing: -0.01em;
+    line-height: 1.2em;
+}
+
+.offer-cont__text {
+    
+    padding: 20px 0 50px;
+}
+
+
+.hero {
+    background: url(../img/Placeholder.jpg) no-repeat right top;
+    background-size: 80% 100%;
+    width: 55%;
+    height: 80vh;
+    position: absolute;
+    top: 142px;
+    right: 0;
+
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    width: 40%;
+    height: 43%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: url(../img/video.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.video::after {
+    content: '';
+    display: block;
+    background: url(../img/play_button.svg);
+    position: absolute;
+    /*top: calc(50% - 32.5px);
+    left: calc(50% - 32.5px);
+    как вариант расположить кнопку по середине блока video. сделал через flex*/
+    width: 65px;
+    height: 65px;
+}
+
+.problems {
+    padding-top: 137px;
+}
+
+
+
+.about__author {
+    background: url(../img/Ellipse.jpg) no-repeat left center;
+    padding: 7px 0 7px 96px;
+    margin-top: 60px;  
+}
+
+.about__name {
+    font-size: 22px;   
+}
+
+.about__text {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+
+.services {
+    padding-top: 142px;
+}
+.section-title__label {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #222222;
+    letter-spacing: 0.25em;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+
+
+.serv-list {
+    color: #616161;
+    margin-top: 70px;
+}
+.serv-list__item {
+    margin-bottom: 20px;
+}
+.serv-list__left {
+    margin-left: 37px;
+}
+
+
+
+.works-carousel {
+    margin-top: 99px;
+}
+
+.item, 
+.works-carousel .owl-item
+ {
+    width: auto;
+    
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: left;
+}
+
+.works-carousel .owl-nav button.owl-prev {
+    margin: 30px 10px 0 0;
+}
+.works-carousel .owl-nav button.owl-next {
+   
+    margin: 30px 0 0 10px;
+}
+
+.item {
+   position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.item::after {
+    position: absolute;
+    display: block;
+    content: '';
+    background: url('../img/play_button.svg');
+    height: 65px;
+    width: 65px;
+    cursor: pointer;
+}
+
+
+/*=======  result  ======*/
+
+
+.result {
+    padding-top: 219px;
+    
+}
+.collage {
+   
+    background: url('../img/Placeholder4.jpg') no-repeat left top / 80% 70%;
+    position: absolute;
+    left: 0;
+    width: 55%;
+    height: 540px;
+    
+}
+
+.collage img {
+    display: block;
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    right: 65px;
+    bottom: 0;
+    -webkit-box-shadow: 30px 80px 180px rgba(0, 0, 0, 0.25);
+    box-shadow: 30px 80px 180px rgba(0, 0, 0, 0.25);
+ 
+}
+
+
+.easy {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.easy__title {
+    margin-bottom: 30px;
+}
+
+.easy__text {
+    margin-bottom: 62px;
+}
+
+.easy-icon {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+}
+.easy-icon img {
+    margin-right: 25px;
+}
+.easy-icon span {
+}
+
+
+/*=======  works  ========*/
+
+.works {
+    padding-top: 283px;
+    
+}
+
+.work-tabs {
+    margin-top: 65px;
+    margin-left: 65px;
+}
+
+.work-tabs__item a {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    color: #b5b5b5;
+    text-decoration: none;
+}
+
+.work-tabs__item.active a {
+    color: #1434E1;
+}
+
+.works-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 108px;
+   
+}
+.works-wrap__item {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+   
+}
+
+.works-wrap__item:hover {
+    box-shadow: -30px 80px 200px rgba(0, 0, 0, 0.25);
+    transform: translateY(-20px); 
+}
+
+
+
+.works-wrap__item::after {
+    display: block;
+    content: '';
+    background-image: url(../img/play_button.svg);
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    transition: all 0.5s;
+    opacity: 0;
+    
+    
+}
+
+.works-wrap__item:hover.works-wrap__item::after {
+    opacity: 1;
+}
+
+/*TABS*/
+
+.tabs__content {
+  display: none !important; /* по умолчанию прячем все блоки */
+}
+.tabs__content.active {
+  display: flex !important; /* по умолчанию показываем нужный блок */
+}
+
+
+.work-text {
+    margin-top: 25px;
+}
+
+.work-button {
+    margin-top: 25px;
+}
+
+
+/*=====  testimonials  =======*/
+
+.testimonials {
+    margin-top: 248px;
+        
+}
+.contributor {
+    margin-top: 121px;
+}
+
+.contributor__title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 14px;
+}
+
+.cont-photo {
+    display: block;
+}
+
+
+/* ====  carousel  ====*/
+
+.contributer-carousel .owl-nav {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.contributer-carousel .owl-nav button.owl-prev {
+    margin: 30px 10px 0 0;
+}
+.contributer-carousel .owl-nav button.owl-next {
+   
+    margin: 30px 0 0 10px;
+}
+
+
+/*======  clients  ======*/
+
+.clients {
+    margin-top: 278px;
+    padding-bottom: 136px;
+}
+
+.position {
+    margin-bottom: 15px;
+}
+
+.clients-row {
+    margin-top: 70px;
+}
+
+/*====== footer  =====*/
+
+
+.footer {
+    background-color: #515151;
+}
+
+.footer img {
+    padding: 108px 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+    .work-tabs {
+        margin-left: 0;
+    }
+    
+    .works-wrap {
+       flex-wrap: wrap; 
+    }
+    
+   .works-wrap__item {
+        width: 30%;
+       
+    }
+    .works-wrap__item img {
+       display: block;
+        width: 100%;
+    }
+    .contributor {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    .offer-cont__title {
+        font-size: 38px;
+    }
+    .works-wrap {
+        margin-top: 60px;
+    }
+   /* .works-wrap__item {
+        width: 40%;
+       
+    }*/
+    
+    .contributer-carousel .owl-nav {
+       top:auto;
+        left: calc(50% - 65px);
+    }
+    
+    .poster {
+        margin-bottom: 60px;
+    }
+    
+    .result,
+    .works {
+        padding-top: 120px;
+    }
+    
+    .work-tabs {
+        margin-top: 30px;
+    }
+    
+    .testimonials,
+    .clients{
+        margin-top: 180px;
+    }
+    
+  
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .offer-cont {
+        width: 50%;
+    }
+    
+    .hero {
+        width: 48%;
+        height: 67vh;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    .serv-list {
+        margin-top: 20px;
+    }
+    
+    .serv-list__left {
+        margin-left: 0;
+    }
+    
+    .works-carousel {
+        margin-top: 20px;
+    }
+
+  
+    
+    .section-title {
+        margin-bottom: 30px;
+    }
+    
+    .easy {
+    margin-left: 0;
+    }
+    
+    .easy-icon {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    
+    .easy__text {
+    margin-bottom: 30px;
+    }
+    
+    .collage {
+        position: relative;
+        width: 100%;
+    }
+    
+
+    .works-wrap__item {
+        width: 45%;
+       
+    }
+    
+    .contributer-carousel .owl-nav {
+        bottom: -60px;
+        left: calc(50% - 65px);
+
+}
+
+
+/*
+
+@media screen and (max-width: 720px) {
+     .hero {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        top: 0;
+        margin-top: 60px;
+    
+    }
+   
+    
+    .video {
+        height: 80%;
+    }
+    
+    .vh-dependant {
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .problems {
+        padding-top: 337px;
+    }
+    
+    .collage {
+        position: relative;
+        width: 100%;
+    }
+    
+    .easy {
+        margin-left: 0;
+        margin-top: 70px;
+    }
+
+}
+
+*/
+@media screen and (max-width: 540px) {
+    
+    
+    .offer-cont {
+        width: 100%;
+    }
+    .hero {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        top: 95px;
+    }
+    
+    .poster {
+        margin-top: 90px;
+    }
+    .video {
+        height: 80%;
+    }
+    
+    
+    
+    .collage {
+        width: 100%;
+    }
+    
+    .easy {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+    .testimonials {
+        margin-top: 80px;
+    }
+    
+    .clients {
+        margin-top: 80px;
+        padding-bottom: 60px;
+    } 
+    .clients-row {
+        margin-top: 20px;
+    }
+    .clients-row img {
+       
+        height: 40px;
+    }
+    
+    .footer img {
+        padding: 30px 0;
+    }
+    
+    .result, .works, .services {
+        padding-top: 60px;
+    }
+    
+    .section-title__label {
+        margin-bottom: 20px;
+    } 
+        
+    
+    
+    .section-title {
+        margin-bottom: 0;
+    }
+    
+    .works-wrap__item {
+        width: 100%;
+    }
+    
+    .work-tabs {
+        flex-direction: column;
+    }
+    
+    .contributer-carousel .owl-nav {
+        bottom: -60px;
+        left: calc(50% - 65px);
+    }
+    
+    .collage img {
+        right: -3px;
+    }
+    
+
+
+    
+}
